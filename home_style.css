@@ -1,0 +1,166 @@
+:root{
+    --roxo: rgb(53, 0, 105);
+    --miniamarelo:rgb(255, 254, 226);
+}
+/* navbar piccola */
+.navpic ul{
+    display: flex;
+    justify-content: end;
+}
+
+.navpic ul li{
+    list-style: none;
+    margin: 7px 40px;
+    font-size: 20px;
+    color: var(--miniamarelo);
+}
+
+.navpic{
+    background-color: var(--roxo);
+}
+/* fine navbar piccola */
+
+/* inizio navbar principale */
+/* nav ul{
+    display: flex;
+    justify-content:center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 40px;
+    font-size: 20px;
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+   
+} */
+
+
+.navbar {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color:white;
+    /* padding: 15px; */
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+    transition: 0.7s;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    border-bottom: 2px solid white;
+  }
+
+  .nav-links.show {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 70px;  /* Puoi regolare questa altezza in base alle tue esigenze */
+    right: 0;
+    left: 0;
+    z-index: 1;
+    width: 10vh;
+  }
+  
+  .nav-links.show li {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .menu-icon.active .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+    
+  }
+  
+  .menu-icon.active .bar:nth-child(2) {
+    opacity: 0;
+   
+  }
+  
+  .menu-icon.active .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+    
+  }
+
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 40px;  /* Regola l'altezza del dropdown in base alle tue esigenze */
+    right: 0;
+    background-color: #333;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 15;
+    
+  }
+  
+  .dropdown a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .dropdown a:hover {
+    background-color: #555;
+  }
+  
+  .menu-icon.active + .dropdown {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+  
+
+/* .logo1{
+    height: 200px;
+    margin-bottom: 35px;
+} */
+/* fine navbar principale */
+
+/* header */
+
+.swiper {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
