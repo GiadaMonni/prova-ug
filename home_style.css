@@ -639,4 +639,9 @@ button:focus+.design-container {
   
  }
 
+ footer{
+  background-color: var(--roxo);
+  color: var(--beige);
+ }
+
  
