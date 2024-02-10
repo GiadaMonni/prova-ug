@@ -23,7 +23,7 @@ var swiper = new Swiper(".swiper.mySwiper", {
     },
 
     autoplay: {
-        delay: 2000,
+        delay: 3000,
       },
   });
 
