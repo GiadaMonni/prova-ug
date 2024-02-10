@@ -1,12 +1,19 @@
+:root{
+  --roxo: rgb(53, 0, 105);
+  --viola: rgb(119, 19, 191);
+  --miniamarelo:rgb(255, 254, 226);
+  --beige: rgb(233, 233, 233);
+}
+
 .form {
-    width: 50vh;
+    width: 55vh;
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 0.4em;
-    background-color: #171717;
+    background-color: var(--viola);
     border-radius: 25px;
     transition: .4s ease-in-out;
   }
@@ -105,6 +112,14 @@
   }
   
   .button3:hover {
-    background-color: red;
+    background-color: var(--roxo);
     color: white;
+  }
+
+  .social img{
+    height: 50px;
+  }
+
+  .social img:hover{
+    height: 70px;
   }
