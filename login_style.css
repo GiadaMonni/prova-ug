@@ -13,7 +13,7 @@
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 0.4em;
-    background-color: var(--viola);
+    background-color: var(--roxo);
     border-radius: 25px;
     transition: .4s ease-in-out;
   }
@@ -112,7 +112,7 @@
   }
   
   .button3:hover {
-    background-color: var(--roxo);
+    background-color: var(--viola);
     color: white;
   }
 
