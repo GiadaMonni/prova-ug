@@ -254,3 +254,7 @@ main {
   border: none;
   background-color: transparent;
 }
+footer{
+  background-color: var(--roxo);
+  color: var(--beige);
+ }
