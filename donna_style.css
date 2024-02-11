@@ -1,0 +1,23 @@
+.riga{
+    width: 200vh;
+    height: 1px;
+    border: solid 1px var(--viola);
+    margin: 35px;
+    }
+
+    /* .dropdown {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: -1vh;
+        background-color: var(--roxo);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 15;
+        width: 30vh;
+        border: solid black;
+    } */
+
+    /* .dropdown a:hover {
+        background-color: var(--viola);
+        border: solid black;
+      } */
